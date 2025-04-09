@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>Jogo de Perguntas</title>
+  
+</head>
+
+<body>
+  <header>
+
+        <nav>
+            <a href="#topo">
+                <img src="https://lirp.cdn-website.com/54021ebb/dms3rep/multi/opt/Vector+%286%29-109w.png" alt="logo">
+            </a>
+            <ul>
+                <li><a href="#competidores">PARTICIPANTES</a></li>
+                <li><a href="#placar">PLACAR</a></li>
+                <li><a href="#podio">PÓDIO</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <div class="container">
+        <h2>Jogo de Perguntas</h2>
+        <div id="quiz">
+            <div id="textoApoio">
+            </div>
+            <div id="imagemsQuestao"></div>
+            <div class="questao" id="questao"></div>
+            <div id="options">
+
+            </div>
+        </div>
+        <div id="rodape" class="result">
+            <p id="result">Pontuação: 0</p>
+            <button id="proximaPergunta" onclick="loadQuestion()">proximo</button>
+
+        </div>
+        <button id="restart" onclick="restartGame()">Jogar Novamente</button>
+    </div>
+</main>
+    <script>
+        let controler = 0;
+        let score = 0;
+        let correctAlternative = "";
+        const opcoes = document.getElementById('options')
+
+        const resultado = document.getElementById('result')
+        const options = {
+            method: 'GET'
+        };
+
+        function gerarIndice() {
+            let currentQuestionIndex = Math.floor(Math.random() * (180 - 0 + 1));
+
+            return currentQuestionIndex;
+        }
+
+        function gerarAno() {
+            let ano = Math.floor(Math.random() * (2023 - 2009 + 1)) + 2009;
+            return ano;
+        }
+
+        function processarTexto(texto, imagemQuestao) {
+            if (texto) 
+            texto = texto.replace(/!\[.*?\]\(.*?\.(png|jpe?g|webp|gif)\)/gi, "").trim();
+
+
+            imagemQuestao.classList.replace("none", "flex");
+
+            return texto;
+        }
+        
+
+        function loadQuestion() {
+            const alternativas = document.getElementsByClassName('alternativas');
+            const imagemDaQuestao = document.getElementsByClassName('imagemDaQuestao');
+            const ano = gerarAno();
+            const index = gerarIndice();
+            const imagemsQuestao = document.getElementById('imagemsQuestao');
+            for (let i = alternativas.length - 1; i >= 0; i--) {
+                alternativas[i].remove();
+            }
+
+            for (let i = imagemDaQuestao.length - 1; i >= 0; i--) {
+                imagemDaQuestao[i].remove();
+            }
+            for (let i = 0; i < document.getElementsByClassName('alternativas').length; i++) {
+                document.getElementsByClassName('alternativas')[i].classList.remove('incorrect', 'correct');
+                document.getElementsByClassName('alternativas')[i].disabled = false
+            }
+            console.log(ano, index);
+
+            imagemsQuestao.classList.add('none')
+            fetch(`https://api.enem.dev/v1/exams/${ano}/questions/${index}`, options)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.discipline === "linguagens" ) {
+                        let texto = data.context;
+                        texto = processarTexto(texto, imagemsQuestao)
+
+
+                        for (let i = 0; i <= data.files.length - 1; i++) {
+
+                            const imgQuestao = document.createElement("img")
+                            imgQuestao.classList.add('imagemDaQuestao')
+                            imgQuestao.src = data.files[i];
+                            imgQuestao.alt = "imagem questão"
+                            imagemsQuestao.appendChild(imgQuestao)
+                        }
+                        document.getElementById('textoApoio').innerHTML = texto;
+
+                        document.getElementById('questao').innerHTML = data.alternativesIntroduction;
+                        
+                        if (data.alternatives[0].file != null) {
+
+                            for (let i = 0; i <= data.alternatives.length - 1; i++) {
+                                const alternativa = document.createElement("button");
+                        alternativa.classList.add('alternativas')
+                        alternativa.setAttribute("onclick", `checkopcao('${data.alternatives[i].letter}')`);
+                        alternativa.setAttribute("id", `${data.alternatives[i].letter}`)
+
+                                alternativa.innerHTML = `<img src = ${data.alternatives[i].file}>`
+                                opcoes.appendChild(alternativa)
+
+
+                            }
+                        }
+                        else{
+                            for(let i = 0; i <= data.alternatives.length -1; i++){
+                                const alternativa = document.createElement("button");
+                        alternativa.classList.add('alternativas')
+                        alternativa.setAttribute("onclick", `checkopcao('${data.alternatives[i].letter}')`);
+                        alternativa.setAttribute("id", `${data.alternatives[i].letter}`)
+
+                            alternativa.innerHTML = `<p>${data.alternatives[i].text}</p>`
+                            opcoes.appendChild(alternativa)
+                            }
+
+                        }
+                  
+
+
+                        correctAlternative = data.correctAlternative;
+                    } else {
+                        loadQuestion();
+                    }
+                })
+                .catch(err => console.error('Erro ao buscar questões:', err));
+        }
+
+        function checkopcao(selectedOption) {
+
+            for (let i = 0; i < document.getElementsByClassName('alternativas').length; i++) {
+                document.getElementsByClassName('alternativas')[i].classList.add('incorrect');
+                document.getElementsByClassName('alternativas')[i].disabled = true
+                document.getElementById(correctAlternative).classList.add('correct')
+
+            }
+
+            if (selectedOption === correctAlternative) {
+                score++;
+            }
+
+            return resultado.innerHTML = `Pontuação: ${score}`;
+
+
+
+
+        }
+
+  
+
+
+
+        loadQuestion();
+    </script>
+
+</body>
+
+</html>

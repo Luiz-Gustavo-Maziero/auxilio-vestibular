@@ -1,0 +1,189 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-bottom: 100px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 900px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.questao {
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+
+#options {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    img {
+        width: 70%;
+    }
+}
+
+.alternativas {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 48%;
+    cursor: pointer;
+}
+
+
+
+.result {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#restart {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#restart:hover {
+    background-color: #27ae60;
+}
+
+.none {
+    display: none;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imagemQuestao {
+    flex-direction: column;
+
+
+}
+
+#textoApoio {
+    font-size: 16px;
+    padding: 20px 0;
+}
+
+#rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    button {
+        border: none;
+        padding: 10px 30px;
+        border-radius: 20px;
+        color: white;
+        background-color: #3498db;
+
+        &:hover {
+            background-color: #236ea0;
+        }
+    }
+}
+
+.incorrect {
+    background-color: red;
+    cursor: not-allowed;
+
+}
+
+.correct {
+    cursor: not-allowed;
+
+    background-color: green;
+}
+
+.imagemDaQuestao {
+    width: 50%;
+}
+
+header {
+    width: 100%;
+    z-index: 1000;
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    nav {
+        flex-wrap: wrap;
+        border-radius: 20px;
+        width: 50%;
+        padding: 10px;
+        display: flex;
+        background-color: #3b3b3bab;
+        align-items: center;
+
+
+
+        ul {
+            gap: 80px;
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+
+            li:hover #subMenu {
+
+                display: block;
+            }
+
+            li a {
+                color: transparent;
+                overflow: hidden;
+                background: linear-gradient(to left, white, white 50%, #FC715A 50%);
+                background-size: 200% 100%;
+                -webkit-background-clip: text;
+                background-position: 100%;
+                transition: ease 700ms;
+
+                &:hover {
+                    cursor: pointer;
+                    transition: ease 700ms;
+                    background-position: 0% 100%;
+                }
+            }
+        }
+    }
+}
+
+nav li {
+    color: white;
+}
+
+main {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+
+    button {
+        cursor: pointer;
+    }
+}
+
+#subMenu {
+
+    display: none;
+}
