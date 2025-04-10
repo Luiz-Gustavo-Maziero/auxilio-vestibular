@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="stylesheet" href="../../public/estilos.css">
+    <title>Jogo de Perguntas</title>
+
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <ul>
+                <li>ENEM
+                    <div id="subMenu">
+
+                        <a href="../enem/ciencias-humanas-perguntas.html"> Ciências da Natureza</a><br>
+
+                        <a href="../enem/ciencias-humanas-perguntas.html"> Ciências Humanas </a><br>
+
+                        <a href="../enem/matematica-perguntas.html"> Matematica </a><br>
+
+                        <a href="../enem/linguagens-perguntas.html"> linguagens </a>
+
+                    </div>
+                </li>
+                <li>UEL
+                    <div id="subMenu">
+                        <a href="../enem/ciencias-humanas-perguntas.html"> Ciências da Natureza</a><br>
+
+                        <a href="../enem/ciencias-humanas-perguntas.html"> Ciências Humanas </a><br>
+
+                        <a href="../enem/matematica-perguntas.html"> Matematica </a><br>
+
+                        <a href="../enem/linguagens-perguntas.html"> linguagens </a>
+
+                    </div>
+                </li>
+                <li>USP
+                    <div id="subMenu">
+
+                        <a href="../enem/ciencias-humanas-perguntas.html"> Ciências da Natureza</a><br>
+
+                        <a href="../enem/ciencias-humanas-perguntas.html"> Ciências Humanas </a><br>
+
+                        <a href="../enem/matematica-perguntas.html"> Matematica </a><br>
+
+                        <a href="../enem/linguagens-perguntas.html"> linguagens </a>
+
+                    </div>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Jogo de Perguntas</h2>
+            <div id="quiz">
+                <div id="textoApoio">
+                </div>
+                <div id="imagemsQuestao"></div>
+                <div class="questao" id="questao"></div>
+                <div id="options">
+
+                </div>
+            </div>
+            <div id="rodape" class="result">
+                <p id="result">Pontuação: 0</p>
+                <button id="proximaPergunta" onclick="loadQuestion()">proximo</button>
+
+            </div>
+            <button id="restart" onclick="restartGame()">Jogar Novamente</button>
+        </div>
+    </main>
+    <script src="../../public/ciencias-humanas.js">
+      
+    </script>
+
+</body>
+
+</html>
