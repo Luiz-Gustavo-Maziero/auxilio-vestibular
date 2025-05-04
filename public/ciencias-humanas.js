@@ -122,8 +122,7 @@ function checkopcao(selectedOption) {
 
     return resultado.innerHTML = `Pontuação: ${score}`;
 
-
-
-
 }
-
+window.onload = function() {
+    loadQuestion();
+};

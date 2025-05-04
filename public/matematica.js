@@ -127,3 +127,6 @@ function checkopcao(selectedOption) {
 
 }
 
+window.onload = function() {
+    loadQuestion();
+};

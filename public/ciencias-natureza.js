@@ -60,12 +60,17 @@ function loadQuestion() {
 
 
                 for (let i = 0; i <= data.files.length - 1; i++) {
-
+                    const ampliarimg = document.createElement("a")
+                    ampliarimg.href = data.files[i];
+                    ampliarimg.target = "blank"
+                    ampliarimg.setAttribute("data-lightbox", "galeria")
+                    ampliarimg.setAttribute("data-title", "Imagem carregada pela API");
                     const imgQuestao = document.createElement("img")
                     imgQuestao.classList.add('imagemDaQuestao')
                     imgQuestao.src = data.files[i];
-                    imgQuestao.alt = "imagem questão"
-                    imagemsQuestao.appendChild(imgQuestao)
+                    imgQuestao.alt = "imagem questão";
+                    ampliarimg.appendChild(imgQuestao)
+                    imagemsQuestao.appendChild(ampliarimg)
                 }
                 document.getElementById('textoApoio').innerHTML = texto;
 
@@ -128,4 +133,6 @@ function checkopcao(selectedOption) {
 
 }
 
-loadQuestion();
+window.onload = function() {
+    loadQuestion();
+};

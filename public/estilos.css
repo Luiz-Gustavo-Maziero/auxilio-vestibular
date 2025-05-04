@@ -5,11 +5,11 @@
     margin-bottom: 100px;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.253);
     width: 900px;
 }
 
-h2 {
+.container h2 {
     text-align: center;
 }
 
@@ -74,12 +74,6 @@ h2 {
     align-items: center;
 }
 
-#imagemQuestao {
-    flex-direction: column;
-
-
-}
-
 #textoApoio {
     font-size: 16px;
     padding: 20px 0;
@@ -116,37 +110,45 @@ h2 {
 }
 
 .imagemDaQuestao {
-    width: 50%;
+    width: 80%;
 }
-
+body{
+    padding: 0;
+    margin: 0%;
+}
+#logo{
+    width: 4%;
+    height: auto;
+}
 header {
     width: 100%;
     z-index: 1000;
-    position: relative;
-    margin-top: 20px;
+    position: fixed;
+    margin-top: 0px;
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
 
     nav {
         flex-wrap: wrap;
-        border-radius: 20px;
-        width: 50%;
-        padding: 10px;
+        width: 100%;
+        padding: 0px;
         display: flex;
-        background-color: #3b3b3bab;
-        align-items: center;
+        background-color: black;
+        align-items: start;
 
 
 
         ul {
-            gap: 80px;
-            display: flex;
-            flex-wrap: wrap;
             list-style: none;
+            display: flex;
+            width: 95%;
+            padding: 0;
+            margin: 0;
+            justify-content: space-evenly;
 
             li:hover #subMenu {
-
                 display: block;
             }
 
@@ -170,7 +172,13 @@ header {
 }
 
 nav li {
+    text-align: center;
+padding: 20px 0px;
     color: white;
+    width:140px;
+    &:hover{
+        background-color: #FC715A;
+    }
 }
 
 main {
@@ -184,6 +192,12 @@ main {
 }
 
 #subMenu {
-
+text-align: start;
     display: none;
+    background-color: rgb(75, 75, 75);
+    position: absolute;
+    width:100px;
+    top: 100%;
+    padding: 10px 20px;
+
 }

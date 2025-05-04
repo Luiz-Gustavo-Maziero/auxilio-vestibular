@@ -1,0 +1,217 @@
+[
+    {
+        "title": "Questão 06 - UEL 2024",
+        "index": 6,
+        "year": 2024,
+        "language": "pt-BR",
+        "discipline": "matematica",
+        "context": "Os frutos do girassol formam espirais que, quando contadas separadamente, à esquerda e à direita, admitem um comportamento irregular: não coincidem. Na figura a seguir, as espirais contadas em um sentido totalizam 34 e, no outro, totalizam 21. Seja N = {1, 2, 3, ...} e admita que F é o conjunto imagem da função f : N → N que satisfaz f(1) = 1, f(2) = 1, f(n+2) = f(n+1) + f(n) para todo n ∈ N.",
+        "files": ["https://example.com/imagem_espirais.jpg"],
+        "correctAlternative": "D",
+        "alternativesIntroduction": "Assinale a alternativa que apresenta, corretamente e para todo n ∈ N, o valor de f(n+5) em função de f(n+1) e de f(n).",
+        "alternatives": [
+            {
+                "letter": "A",
+                "text": "f(n+1) + f(n)",
+                "file": null,
+                "isCorrect": false
+            },
+            {
+                "letter": "B",
+                "text": "f(n+1) + 2f(n)",
+                "file": null,
+                "isCorrect": false
+            },
+            {
+                "letter": "C",
+                "text": "2f(n+1) + 3f(n)",
+                "file": null,
+                "isCorrect": false
+            },
+            {
+                "letter": "D",
+                "text": "5f(n+1) + 3f(n)",
+                "file": null,
+                "isCorrect": true
+            },
+            {
+                "letter": "E",
+                "text": "5f(n+1) + 8f(n)",
+                "file": null,
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "title": "Questão 07 - UEL 2024",
+        "index": 7,
+        "year": 2024,
+        "language": "pt-BR",
+        "discipline": "artes",
+        "context": "Analise as imagens das obras do artista Maurits Cornelis Escher (Figuras 1 a 4). Sobre as obras do artista e os conhecimentos sobre Arte Moderna, considere as afirmativas a seguir: I. A figura 1 é um desenho que apresenta objetos e composições abstratas. II. A figura 2 apresenta uma representação de metamorfoses. III. A figura 3 é uma gravura subordinada a múltiplos pontos de vista. IV. A figura 4 é uma gravura que tem como tema central o infinito.",
+        "files": ["https://example.com/escher_fig1.jpg", "https://example.com/escher_fig2.jpg"],
+        "correctAlternative": "E",
+        "alternativesIntroduction": "Assinale a alternativa correta.",
+        "alternatives": [
+            {
+                "letter": "A",
+                "text": "Somente as afirmativas I e II são corretas.",
+                "file": null,
+                "isCorrect": false
+            },
+            {
+                "letter": "B",
+                "text": "Somente as afirmativas I e IV são corretas.",
+                "file": null,
+                "isCorrect": false
+            },
+            {
+                "letter": "C",
+                "text": "Somente as afirmativas III e IV são corretas.",
+                "file": null,
+                "isCorrect": false
+            },
+            {
+                "letter": "D",
+                "text": "Somente as afirmativas I, II e III são corretas.",
+                "file": null,
+                "isCorrect": false
+            },
+            {
+                "letter": "E",
+                "text": "Somente as afirmativas II, III e IV são corretas.",
+                "file": null,
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "title": "Questão 08 - UEL 2024",
+        "index": 8,
+        "year": 2024,
+        "language": "pt-BR",
+        "discipline": "geografia",
+        "context": "A bacia hidrográfica do Rio Paraná se forma na vertente ocidental da Serra da Mata da Corda, no Estado de Minas Gerais, com o nome de Parnaíba. Com essa denominação, o rio corre até receber, pela margem esquerda, o seu afluente Rio Grande, sendo chamado, daí em diante, de Rio Paraná. Percorre os Estados de Minas Gerais, Mato Grosso do Sul, São Paulo e Paraná e as Repúblicas do Paraguai, Argentina e Uruguai, desaguando no estuário do Rio da Prata.",
+        "files": ["https://example.com/mapa_parana.jpg"],
+        "correctAlternative": "D",
+        "alternativesIntroduction": "Com base no mapa e nos conhecimentos sobre Geografia e História do Paraná, considere as afirmativas a seguir.",
+        "alternatives": [
+            {
+                "letter": "A",
+                "text": "Somente as afirmativas I e II são corretas.",
+                "file": null,
+                "isCorrect": false
+            },
+            {
+                "letter": "B",
+                "text": "Somente as afirmativas I e IV são corretas.",
+                "file": null,
+                "isCorrect": false
+            },
+            {
+                "letter": "C",
+                "text": "Somente as afirmativas III e IV são corretas.",
+                "file": null,
+                "isCorrect": false
+            },
+            {
+                "letter": "D",
+                "text": "Somente as afirmativas I, II e III são corretas.",
+                "file": null,
+                "isCorrect": true
+            },
+            {
+                "letter": "E",
+                "text": "Somente as afirmativas II, III e IV são corretas.",
+                "file": null,
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "title": "Questão 09 - UEL 2024",
+        "index": 9,
+        "year": 2024,
+        "language": "pt-BR",
+        "discipline": "historia",
+        "context": "A colonização do norte do Paraná deu-se, mais efetivamente, em meados da década de 1920, com a aquisição de uma larga faixa de terra, a oeste do Rio Tibagi, que se estendia até as margens dos rios Ivaí e Piquiri, pela Companhia de Terras Norte do Paraná (CTNP) de capital britânico.",
+        "files": ["https://example.com/mapa_colonizacao.jpg"],
+        "correctAlternative": "C",
+        "alternativesIntroduction": "Com base no mapa e nos conhecimentos sobre História do Paraná, considere as afirmativas a seguir.",
+        "alternatives": [
+            {
+                "letter": "A",
+                "text": "Somente as afirmativas I e II são corretas.",
+                "file": null,
+                "isCorrect": false
+            },
+            {
+                "letter": "B",
+                "text": "Somente as afirmativas I e IV são corretas.",
+                "file": null,
+                "isCorrect": false
+            },
+            {
+                "letter": "C",
+                "text": "Somente as afirmativas III e IV são corretas.",
+                "file": null,
+                "isCorrect": true
+            },
+            {
+                "letter": "D",
+                "text": "Somente as afirmativas I, II e III são corretas.",
+                "file": null,
+                "isCorrect": false
+            },
+            {
+                "letter": "E",
+                "text": "Somente as afirmativas II, III e IV são corretas.",
+                "file": null,
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "title": "Questão 10 - UEL 2024",
+        "index": 10,
+        "year": 2024,
+        "language": "pt-BR",
+        "discipline": "geografia",
+        "context": "O desmatamento é tema de discussões em nível nacional e internacional e, atualmente, o Cerrado tem sido um dos biomas mais afetados. A taxa de desmatamento depende, dentre outros fatores, das medidas de fiscalização que são adotadas pelo governo. A figura a seguir apresenta as taxas de desmatamento no Cerrado, desde 2001 até 2023.",
+        "files": ["https://example.com/grafico_cerrado.jpg"],
+        "correctAlternative": "B",
+        "alternativesIntroduction": "Atribua V (verdadeiro) ou F (falso) às afirmativas a seguir.",
+        "alternatives": [
+            {
+                "letter": "A",
+                "text": "V, F, V, F, F",
+                "file": null,
+                "isCorrect": false
+            },
+            {
+                "letter": "B",
+                "text": "V, F, V, F, V",
+                "file": null,
+                "isCorrect": true
+            },
+            {
+                "letter": "C",
+                "text": "V, V, F, V, F",
+                "file": null,
+                "isCorrect": false
+            },
+            {
+                "letter": "D",
+                "text": "F, V, V, F, V",
+                "file": null,
+                "isCorrect": false
+            },
+            {
+                "letter": "E",
+                "text": "F, V, F, V, F",
+                "file": null,
+                "isCorrect": false
+            }
+        ]
+    }
+]
