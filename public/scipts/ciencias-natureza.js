@@ -36,7 +36,10 @@ function loadQuestion() {
     const imagemDaQuestao = document.getElementsByClassName('imagemDaQuestao');
     const ano = gerarAno();
     const index = gerarIndice();
+    const loading = document.getElementById('loading')
     const imagemsQuestao = document.getElementById('imagemsQuestao');
+    document.getElementById('textoApoio').innerHTML = '';
+    document.getElementById('questao').innerHTML = '';
     for (let i = alternativas.length - 1; i >= 0; i--) {
         alternativas[i].remove();
     }
@@ -110,7 +113,8 @@ function loadQuestion() {
                 loadQuestion();
             }
         })
-        .catch(err => console.error('Erro ao buscar questões:', err));
+        .catch(err => {
+            console.error('Erro ao buscar questões:', err)});
 }
 
 function checkopcao(selectedOption) {
@@ -127,9 +131,6 @@ function checkopcao(selectedOption) {
     }
 
     return resultado.innerHTML = `Pontuação: ${score}`;
-
-
-
 
 }
 
