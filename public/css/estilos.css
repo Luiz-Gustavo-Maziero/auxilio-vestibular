@@ -208,3 +208,13 @@ text-align: start;
     padding-right: 100px;
     text-align: left;
 }
+
+@media  screen and (max-width:768px) {
+    #conteudo{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    header nav img{
+        display: none;
+    }
+}
