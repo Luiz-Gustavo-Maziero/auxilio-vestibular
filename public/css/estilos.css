@@ -149,7 +149,7 @@ header {
             justify-content: space-evenly;
 
             li:hover #subMenu {
-                display: block;
+                display: grid;
             }
 
             li a {
@@ -160,7 +160,6 @@ header {
                 -webkit-background-clip: text;
                 background-position: 100%;
                 transition: ease 700ms;
-
                 &:hover {
                     cursor: pointer;
                     transition: ease 700ms;
@@ -194,10 +193,18 @@ main {
 #subMenu {
 text-align: start;
     display: none;
+    gap: 0px;
     background-color: rgb(75, 75, 75);
     position: absolute;
-    width:100px;
+    width: 150px;
     top: 100%;
     padding: 10px 20px;
 
+}
+
+
+#conteudo{
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
 }
