@@ -18,9 +18,11 @@
   "homepage": "https://github.com/Luiz-Gustavo-Maziero/auxilio-vestibular#readme",
   "description": "",
   "dependencies": {
+    "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
     "express": "^5.1.0",
+    "firebase": "^12.1.0",
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.14.1"
   }
