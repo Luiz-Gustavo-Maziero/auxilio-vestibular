@@ -29,7 +29,7 @@ doc = fitz.open("prova_uel_2024.pdf")
 i=2
 indice = "1"
 contexto = ""
-dentro_questao = False
+dentro_contexto = False
 dentro_justificativa = False
 alternativa_atual = None
 
@@ -56,7 +56,7 @@ while doc.page_count-2 > i:
                             "alternativas": {},
                             "correcao":{}
                         }
-                        dentro_questao = True
+                        dentro_contexto = True
                         questoes.append(questao)
                         alternativa_atual = None    
                         contexto = ''
@@ -64,20 +64,20 @@ while doc.page_count-2 > i:
                         dentro_justificativa = False
                         alternativa_letra = "a"
                     elif "Alternativa correta:" in texto:
-                        dentro_questao = False
+                        dentro_contexto = False
                         questao["correcao"] = texto
                         dentro_justificativa = True
                     elif texto.startswith(("a)", "b)", "c)", "d)", "e)")) and ("incorreta" not in texto) and ("correta" not in texto) and dentro_justificativa == False:
-                        dentro_questao = False
+                        dentro_contexto = False
                         alternativa_letra = texto[0] 
                         questao["alternativas"][alternativa_letra] = texto
                         alternativa_atual = alternativa_letra 
                    
                     elif "questao" in locals() and 'alternativas' in questao and alternativa_atual and texto.strip() and dentro_justificativa == False:
-                        dentro_questao = False
+                        dentro_contexto = False
                         if not texto.startswith(("a)", "b)", "c)", "d)", "e)")):
                             questao["alternativas"][alternativa_atual] += " " + texto
-                    elif dentro_questao == True and not texto.endswith("/ 41") and "Vestibular UEL" not in texto:
+                    elif dentro_contexto == True and not texto.endswith("/ 41") and "Vestibular UEL" not in texto:
                         dentro_justificativa = False
                         contexto += texto
                        # questao['contexto'] += contexto
