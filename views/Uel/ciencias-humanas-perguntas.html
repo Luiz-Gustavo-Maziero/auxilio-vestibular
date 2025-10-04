@@ -1,0 +1,84 @@
+<!-- index.html -->
+<div id="textoApoio"></div>
+<div id="questao"></div>
+<div id="imagemsQuestao" class="none"></div>
+<div id="options"></div>
+<div id="result"></div>
+
+<script>
+let score = 0;
+let correctAlternative = "";
+const opcoes = document.getElementById('options');
+const resultado = document.getElementById('result');
+
+function loadQuestion() {
+    const alternativas = document.getElementsByClassName('alternativas');
+    const imagemDaQuestao = document.getElementsByClassName('imagemDaQuestao');
+    const imagemsQuestao = document.getElementById('imagemsQuestao');
+
+    // Limpar questões e imagens antigas
+    for (let i = alternativas.length - 1; i >= 0; i--) alternativas[i].remove();
+    for (let i = imagemDaQuestao.length - 1; i >= 0; i--) imagemDaQuestao[i].remove();
+
+    fetch('/questoes')
+        .then(res => res.json())
+        .then(data => {
+            if (!data.length) return console.error("Nenhuma questão encontrada");
+
+            const index = Math.floor(Math.random() * data.length);
+            const questao = data[index];
+
+            // Mostrar contexto
+            let textoContexto = questao.contexto.join(" ");
+            document.getElementById('textoApoio').innerHTML = textoContexto;
+
+            // Mostrar enunciado
+            document.getElementById('questao').innerHTML = questao.enunciado || "";
+
+            // Mostrar imagens do contexto
+            questao.contexto.forEach(item => {
+                if (item.endsWith(".png")) {
+                    const imgQuestao = document.createElement("img");
+                    imgQuestao.classList.add('imagemDaQuestao');
+                    imgQuestao.src = item;
+                    imgQuestao.alt = "imagem questão";
+                    imagemsQuestao.appendChild(imgQuestao);
+                }
+            });
+
+            // Criar alternativas
+            Object.keys(questao.alternativas).forEach(letra => {
+                const alternativa = document.createElement("button");
+                alternativa.classList.add('alternativas');
+                alternativa.setAttribute("onclick", `checkopcao('${letra}', '${questao.correcao}')`);
+                alternativa.setAttribute("id", letra);
+
+                const textoAlt = questao.alternativas[letra];
+                if (textoAlt.endsWith(".png")) {
+                    alternativa.innerHTML = `<img src="${textoAlt}" alt="alternativa ${letra}">`;
+                } else {
+                    alternativa.innerHTML = `<p>${textoAlt}</p>`;
+                }
+
+                opcoes.appendChild(alternativa);
+            });
+
+            correctAlternative = questao.correcao;
+        })
+        .catch(err => console.error("Erro ao buscar questões:", err));
+}
+
+function checkopcao(selectedOption, correctOption) {
+    for (let i = 0; i < document.getElementsByClassName('alternativas').length; i++) {
+        document.getElementsByClassName('alternativas')[i].classList.add('incorrect');
+        document.getElementsByClassName('alternativas')[i].disabled = true;
+    }
+
+    if (correctOption) document.getElementById(correctOption).classList.add('correct');
+
+    if (selectedOption === correctOption) score++;
+    resultado.innerHTML = `Pontuação: ${score}`;
+}
+
+window.onload = loadQuestion;
+</script>
