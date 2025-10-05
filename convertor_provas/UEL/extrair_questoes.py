@@ -3,19 +3,18 @@ from pymongo import MongoClient
 connection_string ='mongodb://meuUsuario:minhaSenha123@localhost:27017/Provas'
 client = MongoClient(connection_string)
 db_connection = client['Provas']
-collection = db_connection.get_collection('tcc')
-print(collection)
-
+collection = db_connection.get_collection('uel')
+ano = "2023"
 questoes = []
 j =0 
-folder_name = "imagens"
+folder_name = "imagens" + ano
 os.makedirs(folder_name, exist_ok=True)
 extrair =[]
 def salvar_imagem(xref, ext,j):
     image_bytes = xref
     image_ext = ext
     control = j
-    file_path = os.path.join(folder_name, f"imagem_{control}.{image_ext}")
+    file_path = os.path.join(folder_name, f"{ano}imagem_{control}.{image_ext}")
 
     with  open(file_path, "wb") as f:
         f.write(image_bytes)
@@ -25,7 +24,7 @@ def salvar_imagem(xref, ext,j):
 
 
 
-doc = fitz.open("prova_uel_2024.pdf")
+doc = fitz.open("prova_uel_2023.pdf")
 i=2
 indice = "1"
 contexto = ""
@@ -47,11 +46,12 @@ while doc.page_count-2 > i:
             for linha in bloco["lines"]:
                 for trecho in linha["spans"]:
                     texto = trecho["text"]
-                    if texto == indice:
+                    if texto == indice and dentro_contexto == False:
                         if contexto:
                             questao['contexto'].append(contexto)  
                         questao = {
-                            "indice": indice,
+                            "ano": ano,
+                            "indice":indice,
                             "contexto": [],
                             "alternativas": {},
                             "correcao":{}
@@ -78,7 +78,7 @@ while doc.page_count-2 > i:
                         dentro_justificativa = False
                         if not texto.startswith(("a)", "b)", "c)", "d)", "e)")):
                             questao["alternativas"][alternativa_atual] += " " + texto
-                    elif dentro_contexto == True and not texto.endswith("/ 41") and "Vestibular UEL" not in texto:
+                    elif dentro_contexto == True and not texto.endswith("/ 56") and "Vestibular UEL" not in texto:
                         dentro_justificativa = False
                         contexto += texto
                        # questao['contexto'] += contexto

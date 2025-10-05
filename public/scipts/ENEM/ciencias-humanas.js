@@ -118,11 +118,30 @@ function checkopcao(selectedOption) {
 
     if (selectedOption === correctAlternative) {
         score++;
+        fetch('/api/salvar_acertos/enem', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ acertos: 1 }) // envia 1 acerto a mais
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.sucesso) {
+                    console.log('Acerto salvo com sucesso!');
+                } else {
+                    console.error('Erro ao salvar acertos:', data.erro);
+                }
+            })
+            .catch(err => console.error('Erro na requisição:', err));
     }
 
-    return resultado.innerHTML = `Pontuação: ${score}`;
+
+
+
+    resultado.innerHTML = `Pontuação: ${score}`;
 
 }
-window.onload = function() {
+window.onload = function () {
     loadQuestion();
 };
