@@ -63,11 +63,11 @@ while doc.page_count-2 > i:
                         indice = str(int(indice) + 1)
                         dentro_justificativa = False
                         alternativa_letra = "a"
-                    elif "Alternativa correta:" in texto:
+                    elif texto.startswith("Alternativa correta:"):
                         dentro_contexto = False
                         questao["correcao"] = texto
                         dentro_justificativa = True
-                    elif texto.startswith(("a)", "b)", "c)", "d)", "e)")) and ("incorreta" not in texto) and ("correta" not in texto) and dentro_justificativa == False:
+                    elif texto.startswith(("a)", "b)", "c)", "d)", "e)")) and dentro_justificativa == False:
                         dentro_contexto = False
                         alternativa_letra = texto[0] 
                         questao["alternativas"][alternativa_letra] = texto
@@ -75,6 +75,7 @@ while doc.page_count-2 > i:
                    
                     elif "questao" in locals() and 'alternativas' in questao and alternativa_atual and texto.strip() and dentro_justificativa == False:
                         dentro_contexto = False
+                        dentro_justificativa = False
                         if not texto.startswith(("a)", "b)", "c)", "d)", "e)")):
                             questao["alternativas"][alternativa_atual] += " " + texto
                     elif dentro_contexto == True and not texto.endswith("/ 41") and "Vestibular UEL" not in texto:

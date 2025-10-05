@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cadastro</title>
+</head>
+<body>
+  <h2>Cadastro</h2>
+  <form method="POST">
+    <label>Nome:</label><br>
+    <input type="text" name="nome"><br><br>
+    <label>Email:</label><br>
+    <input type="text" name="email"><br><br>
+    <label>Senha:</label><br>
+    <input type="password" name="senha"><br><br>
+    <button type="submit">Registrar</button>
+  </form>
+  <a href="/login">Fazer login</a>
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <ul>
+      {% for message in messages %}
+        <li>{{ message }}</li>
+      {% endfor %}
+      </ul>
+    {% endif %}
+  {% endwith %}
+</body>
+</html>

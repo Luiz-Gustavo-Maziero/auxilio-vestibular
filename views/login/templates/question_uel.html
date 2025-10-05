@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Questão Aleatória</title>
+</head>
+<body>
+    <h1>Questão {{ questao.indice }}</h1>
+    <p><b>Contexto:</b> {{ questao.contexto }}</p>
+    <ul>
+        {% for letra, texto in questao.alternativas.items() %}
+            <li>{{ letra }} {{ texto }}</li>
+        {% endfor %}
+    </ul>
+    <p><b>{{ questao.correcao }}</b></p>
+
+    <a href="{{ url_for('questao_aleatoria') }}">Próxima questão aleatória</a>
+</body>
+</html>

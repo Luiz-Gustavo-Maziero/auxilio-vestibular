@@ -72,9 +72,15 @@
     {
         "indice": "6",
         "contexto": [
-            "Leia o texto a seguir.[...] a reprodução técnica pode colocar a cópia dooriginal em situações inatingíveis para o próprio ori-ginal. Ela pode, principalmente, aproximar do re-ceptor a obra, seja sob a forma da fotograﬁa, sejado disco. A catedral abandona seu lugar para insta-lar-se no estúdio de um amador; o coro, execu-tado numa sala ou ao ar livre, pode ser ouvido numquarto.BENJAMIN, Walter. “A obra de arte na era de sua reprodutibili-dade técnica.” In Magia e Técnica. Arte e Política. Ensaios sobreliteratura e história da cultura. Trad. Sergio Paulo Rouanet. 8.ed. São Paulo: Brasiliense, 2012. p. 182.Com base nos conhecimentos sobre Walter Benjamin ea questão da reprodutibilidade técnica da arte, considereas aﬁrmativas a seguir.I. A reprodução técnica permite uma forma de aprecia-ção que promove um novo encantamento do mundo.II. A reprodutibilidade da produção artística garante ademocratização e a emancipação da sociedade.III. A reprodução técnica, com sua produção serial, geraempobrecimento da experiência perceptiva nas ar-tes.IV. A reprodutibilidade instaura um processo de declínioda aura, do singular e do caráter irrepetível da obra.Assinale a alternativa correta.a) Somente as aﬁrmativas I e II são corretas.b) Somente as aﬁrmativas I e IV são corretas.c) Somente as aﬁrmativas III e IV são corretas.d) Somente as aﬁrmativas I, II e III são corretas.e) Somente as aﬁrmativas II, III e IV são corretas."
+            "Leia o texto a seguir.[...] a reprodução técnica pode colocar a cópia dooriginal em situações inatingíveis para o próprio ori-ginal. Ela pode, principalmente, aproximar do re-ceptor a obra, seja sob a forma da fotograﬁa, sejado disco. A catedral abandona seu lugar para insta-lar-se no estúdio de um amador; o coro, execu-tado numa sala ou ao ar livre, pode ser ouvido numquarto.BENJAMIN, Walter. “A obra de arte na era de sua reprodutibili-dade técnica.” In Magia e Técnica. Arte e Política. Ensaios sobreliteratura e história da cultura. Trad. Sergio Paulo Rouanet. 8.ed. São Paulo: Brasiliense, 2012. p. 182.Com base nos conhecimentos sobre Walter Benjamin ea questão da reprodutibilidade técnica da arte, considereas aﬁrmativas a seguir.I. A reprodução técnica permite uma forma de aprecia-ção que promove um novo encantamento do mundo.II. A reprodutibilidade da produção artística garante ademocratização e a emancipação da sociedade.III. A reprodução técnica, com sua produção serial, geraempobrecimento da experiência perceptiva nas ar-tes.IV. A reprodutibilidade instaura um processo de declínioda aura, do singular e do caráter irrepetível da obra.Assinale a alternativa correta."
         ],
-        "alternativas": {},
+        "alternativas": {
+            "a": "a) Somente as aﬁrmativas I e II são corretas.",
+            "b": "b) Somente as aﬁrmativas I e IV são corretas.",
+            "c": "c) Somente as aﬁrmativas III e IV são corretas.",
+            "d": "d) Somente as aﬁrmativas I, II e III são corretas.",
+            "e": "e) Somente as aﬁrmativas II, III e IV são corretas."
+        },
         "correcao": "Alternativa correta: c"
     },
     {
@@ -150,9 +156,15 @@
     {
         "indice": "12",
         "contexto": [
-            "A placenta humana, elemento crucial de conexão entremãe e embrião, é um órgão originário de tecidos mater-nos e membranas extraembrionárias. Por ela, são efetua-das trocas, em que a mãe fornece ao embrião alimento eoxigênio, enquanto o embrião retorna à mãe gás carbô-nico e resíduos do seu metabolismo.A placenta é umlocal de grande concentração de ácido fólico, necessáriodurante o desenvolvimento embrionário. Por meio desteórgão, a mãe também pode transmitir diferentes patóge-nos ao embrião, entre eles a bactéria causadora da síﬁlis,Treponema pallidum.Sobre as trocas efetuadas entre mãe e embrião, considereas aﬁrmativas a seguir.I. As trocas são efetuadas por difusão, devido à proxi-midade entre os vasos sanguíneos da mãe e do em-brião, uma vez que não há continuidade física entreos vasos maternos e os do embrião.II. A mistura entre a circulação materna e a embrionáriaé a causa da transmissão da síﬁlis, que ocorre pormeio da condução do sangue venoso da porção ma-terna da placenta para o embrião.III. Em elevadas altitudes, há um aumento da solubili-dade do oxigênio atmosférico no sangue materno,favorecendo a troca deste gás por CO2 provenienteda respiração fetal.IV. Se o ácido fólico possui duas funções carboxílicascom pKa de 3,5 e 4,3, e o pH ótimo de absorção noorganismo varia de 6,5 a 7,0, então a melhor absor-ção da molécula ocorre em sua forma ionizada.Assinale a alternativa correta.a) Somente as aﬁrmativas I e II são corretas.b) Somente as aﬁrmativas I e IV são corretas.c) Somente as aﬁrmativas III e IV são corretas.d) Somente as aﬁrmativas I, II e III são corretas.e) Somente as aﬁrmativas II, III e IV são corretas."
+            "A placenta humana, elemento crucial de conexão entremãe e embrião, é um órgão originário de tecidos mater-nos e membranas extraembrionárias. Por ela, são efetua-das trocas, em que a mãe fornece ao embrião alimento eoxigênio, enquanto o embrião retorna à mãe gás carbô-nico e resíduos do seu metabolismo.A placenta é umlocal de grande concentração de ácido fólico, necessáriodurante o desenvolvimento embrionário. Por meio desteórgão, a mãe também pode transmitir diferentes patóge-nos ao embrião, entre eles a bactéria causadora da síﬁlis,Treponema pallidum.Sobre as trocas efetuadas entre mãe e embrião, considereas aﬁrmativas a seguir.I. As trocas são efetuadas por difusão, devido à proxi-midade entre os vasos sanguíneos da mãe e do em-brião, uma vez que não há continuidade física entreos vasos maternos e os do embrião.II. A mistura entre a circulação materna e a embrionáriaé a causa da transmissão da síﬁlis, que ocorre pormeio da condução do sangue venoso da porção ma-terna da placenta para o embrião.III. Em elevadas altitudes, há um aumento da solubili-dade do oxigênio atmosférico no sangue materno,favorecendo a troca deste gás por CO2 provenienteda respiração fetal.IV. Se o ácido fólico possui duas funções carboxílicascom pKa de 3,5 e 4,3, e o pH ótimo de absorção noorganismo varia de 6,5 a 7,0, então a melhor absor-ção da molécula ocorre em sua forma ionizada.Assinale a alternativa correta."
         ],
-        "alternativas": {},
+        "alternativas": {
+            "a": "a) Somente as aﬁrmativas I e II são corretas.",
+            "b": "b) Somente as aﬁrmativas I e IV são corretas.",
+            "c": "c) Somente as aﬁrmativas III e IV são corretas.",
+            "d": "d) Somente as aﬁrmativas I, II e III são corretas.",
+            "e": "e) Somente as aﬁrmativas II, III e IV são corretas."
+        },
         "correcao": "Alternativa correta: b"
     },
     {
@@ -186,9 +198,15 @@
     {
         "indice": "15",
         "contexto": [
-            "Uma pessoa deseja alimentar a Inteligência Artiﬁcial (IA)de um robô com dados que lhe permitam tocar música emum violão. Suponha que o violão tem uma corda de 70cmde comprimento e quando ela é posta a oscilar emite umafrequência de 550Hz.O robô precisa “aprender” quaissão os 2◦e 3◦harmônicos para essa corda e ainda emqual posição, na corda, deve pressionar para produzir umanota musical de 962,5Hz. Ele precisará “saber” tambémque, sem diminuir a tensão na corda, não é possível emi-tir uma nota musical de 375Hz.Com base nos conhecimentos sobre acústica, ondas so-noras e cordas vibrantes, considere as aﬁrmativas a se-guir.I. O robô deve calcular o segundo harmônico e acharuma frequência de 1100Hz.II. Para tocar a nota de 375Hz, basta ele tocar a cordalivre em qualquer posição.III. Quando o robô toca o 3◦harmônico para a cordasolta, sem pressionar, ele obtém um valor de 825Hz.IV. Quando o robô pressiona a corda do violão e a toca,a onda produzida é estacionária.Assinale a alternativa correta.a) Somente as aﬁrmativas I e II são corretas.b) Somente as aﬁrmativas I e IV são corretas.c) Somente as aﬁrmativas III e IV são corretas.d) Somente as aﬁrmativas I, II e III são corretas.e) Somente as aﬁrmativas II, III e IV são corretas."
+            "Uma pessoa deseja alimentar a Inteligência Artiﬁcial (IA)de um robô com dados que lhe permitam tocar música emum violão. Suponha que o violão tem uma corda de 70cmde comprimento e quando ela é posta a oscilar emite umafrequência de 550Hz.O robô precisa “aprender” quaissão os 2◦e 3◦harmônicos para essa corda e ainda emqual posição, na corda, deve pressionar para produzir umanota musical de 962,5Hz. Ele precisará “saber” tambémque, sem diminuir a tensão na corda, não é possível emi-tir uma nota musical de 375Hz.Com base nos conhecimentos sobre acústica, ondas so-noras e cordas vibrantes, considere as aﬁrmativas a se-guir.I. O robô deve calcular o segundo harmônico e acharuma frequência de 1100Hz.II. Para tocar a nota de 375Hz, basta ele tocar a cordalivre em qualquer posição.III. Quando o robô toca o 3◦harmônico para a cordasolta, sem pressionar, ele obtém um valor de 825Hz.IV. Quando o robô pressiona a corda do violão e a toca,a onda produzida é estacionária.Assinale a alternativa correta."
         ],
-        "alternativas": {},
+        "alternativas": {
+            "a": "a) Somente as aﬁrmativas I e II são corretas.",
+            "b": "b) Somente as aﬁrmativas I e IV são corretas.",
+            "c": "c) Somente as aﬁrmativas III e IV são corretas.",
+            "d": "d) Somente as aﬁrmativas I, II e III são corretas.",
+            "e": "e) Somente as aﬁrmativas II, III e IV são corretas. 10 / 41 Vestibular UEL 2024"
+        },
         "correcao": "Alternativa correta: b"
     },
     {
@@ -222,9 +240,15 @@
     {
         "indice": "18",
         "contexto": [
-            "Leia a charge a seguir.imagens/imagem_18.pngAdaptado de: FuturamaUm chatbot é um programa de computador que apresentauma interface de comunicação por texto que tenta simu-lar um ser humano na conversação.Uma pesquisadora apresenta o seguinte comando a umchatbot, cujo funcionamento se dá por Inteligência Artiﬁ-cial:Sejamf, g : R →Rdadasporf(x) = sen(x) e g(x) = x.Decida seos gráﬁcos de f e de g se interceptam.Admita que o chatbot tenha dado a seguinte resposta:Sim,osgráﬁcosdasfunçõesf(x) = sen(x) e g(x) = x se intercep-tam em todos os pontos da forma (2nπ,2nπ)e\u0012(2n + 1)π2, (2n + 1)π2\u0013,emque n é um número inteiro.Portanto, osgráﬁcos das funções f e g se interceptamem pelo menos um ponto.Considere as aﬁrmativas a seguir.I. Para todo n ∈Z, vale quef(2nπ) = g(2nπ)II. Para todo n ∈Z, vale quef\u0012(2n + 1)π2\u0013= g\u0012(2n + 1)π2\u0013III. A intersecção dos gráﬁcos de f e de g é não vaziaIV. Para todo n ∈Z e x ∈R, vale quef(x + 2nπ) = f(x)Assinale a alternativa correta.a) Somente as aﬁrmativas I e II são corretas.b) Somente as aﬁrmativas I e IV são corretas.c) Somente as aﬁrmativas III e IV são corretas.d) Somente as aﬁrmativas I, II e III são corretas.e) Somente as aﬁrmativas II, III e IV são corretas."
+            "Leia a charge a seguir.imagens/imagem_18.pngAdaptado de: FuturamaUm chatbot é um programa de computador que apresentauma interface de comunicação por texto que tenta simu-lar um ser humano na conversação.Uma pesquisadora apresenta o seguinte comando a umchatbot, cujo funcionamento se dá por Inteligência Artiﬁ-cial:Sejamf, g : R →Rdadasporf(x) = sen(x) e g(x) = x.Decida seos gráﬁcos de f e de g se interceptam.Admita que o chatbot tenha dado a seguinte resposta:Sim,osgráﬁcosdasfunçõesf(x) = sen(x) e g(x) = x se intercep-tam em todos os pontos da forma (2nπ,2nπ)e\u0012(2n + 1)π2, (2n + 1)π2\u0013,emque n é um número inteiro.Portanto, osgráﬁcos das funções f e g se interceptamem pelo menos um ponto.Considere as aﬁrmativas a seguir.I. Para todo n ∈Z, vale quef(2nπ) = g(2nπ)II. Para todo n ∈Z, vale quef\u0012(2n + 1)π2\u0013= g\u0012(2n + 1)π2\u0013III. A intersecção dos gráﬁcos de f e de g é não vaziaIV. Para todo n ∈Z e x ∈R, vale quef(x + 2nπ) = f(x)Assinale a alternativa correta."
         ],
-        "alternativas": {},
+        "alternativas": {
+            "a": "a) Somente as aﬁrmativas I e II são corretas.",
+            "b": "b) Somente as aﬁrmativas I e IV são corretas.",
+            "c": "c) Somente as aﬁrmativas III e IV são corretas.",
+            "d": "d) Somente as aﬁrmativas I, II e III são corretas.",
+            "e": "e) Somente as aﬁrmativas II, III e IV são corretas."
+        },
         "correcao": "Alternativa correta: c"
     },
     {
@@ -356,9 +380,15 @@
     {
         "indice": "28",
         "contexto": [
-            "Analise a ﬁgura a seguir.imagens/imagem_26.png@geologia_basica facebook.com/uchoamasterOs terremotos criam e modiﬁcam as paisagens em di-versos lugares do planeta e são consequência do tec-tonismo, processo associado ao movimento das placastectônicas. Exemplo disso foi o terremoto que ocorreu emfevereiro de 2023, na Turquia e Síria, e que deixou mais de50 mil mortos, o mais letal na história da Turquia.Com base na ﬁgura e nos conhecimentos sobre geologiae tectônica de placas, considere as aﬁrmativas a seguir.I. O Vale do Rift (Rift Valley), na África, está em pro-cesso de formação em função de localizar-se em umazona extensional que marca o período inicial de se-paração continental.II. O terremoto na Turquia e na Síria foi gerado numafalha transformante, conhecida como falha AnatóliaOriental, que se encontra entre as placas da Arábia,Iraniana e Anatólia.III. A Cordilheira do Himalaia é resultado do processo deorogenia (colisão continental) entre as placas Indo-australiana e da Eurásia, ocorrido na Era Cenozoica.IV. O chamado “Círculo do Fogo” é uma área formada nasuperfície do Planeta, associada ao contato da placado Pacíﬁco com a placa Africana.Assinale a alternativa correta.a) Somente as aﬁrmativas I e II são corretas.b) Somente as aﬁrmativas I e IV são corretas.c) Somente as aﬁrmativas III e IV são corretas.d) Somente as aﬁrmativas I, II e III são corretas.e) Somente as aﬁrmativas II, III e IV são corretas."
+            "Analise a ﬁgura a seguir.imagens/imagem_26.png@geologia_basica facebook.com/uchoamasterOs terremotos criam e modiﬁcam as paisagens em di-versos lugares do planeta e são consequência do tec-tonismo, processo associado ao movimento das placastectônicas. Exemplo disso foi o terremoto que ocorreu emfevereiro de 2023, na Turquia e Síria, e que deixou mais de50 mil mortos, o mais letal na história da Turquia.Com base na ﬁgura e nos conhecimentos sobre geologiae tectônica de placas, considere as aﬁrmativas a seguir.I. O Vale do Rift (Rift Valley), na África, está em pro-cesso de formação em função de localizar-se em umazona extensional que marca o período inicial de se-paração continental.II. O terremoto na Turquia e na Síria foi gerado numafalha transformante, conhecida como falha AnatóliaOriental, que se encontra entre as placas da Arábia,Iraniana e Anatólia.III. A Cordilheira do Himalaia é resultado do processo deorogenia (colisão continental) entre as placas Indo-australiana e da Eurásia, ocorrido na Era Cenozoica.IV. O chamado “Círculo do Fogo” é uma área formada nasuperfície do Planeta, associada ao contato da placado Pacíﬁco com a placa Africana.Assinale a alternativa correta."
         ],
-        "alternativas": {},
+        "alternativas": {
+            "a": "a) Somente as aﬁrmativas I e II são corretas. 18 / 41 Vestibular UEL 2024",
+            "b": "b) Somente as aﬁrmativas I e IV são corretas.",
+            "c": "c) Somente as aﬁrmativas III e IV são corretas.",
+            "d": "d) Somente as aﬁrmativas I, II e III são corretas.",
+            "e": "e) Somente as aﬁrmativas II, III e IV são corretas."
+        },
         "correcao": "Alternativa correta: d"
     },
     {
@@ -378,9 +408,15 @@
     {
         "indice": "30",
         "contexto": [
-            "Analise as imagens a seguir.imagens/imagem_27.pngimagens/imagem_28.pngMãogravadanaCavernadeChauvet.Padre Ruﬁllus de Weissenau, Au-torretrato iluminando a letra “R”.imagens/imagem_29.pngimagens/imagem_30.pngSofonisbaAnguissola,Autorre-trato segurando um medalhão.Vincent van Gogh, Autorretrato nocavalete.imagens/imagem_31.pngimagens/imagem_32.pngRené Magritte, Meditações de umViajante Solitário.Scott Hutchison, Displaced.A Arte é também um meio de registro e manifestação hu-mana e, ao longo do tempo, apresenta a temática do au-torretrato, desenvolvida em vários movimentos e perío-dos da história da Arte.Com base na temática autorretrato, nas imagens e na his-tória da Arte, considere as aﬁrmativas a seguir.I. Na Arte Moderna, os autorretratos mostram mais ex-pressão, cor e movimento, rompendo com a ﬁgura-ção linear.II. O autorretrato contemporâneo gera uma interpreta-ção inovadora, estranhamento e despersoniﬁcação,uma releitura da sua imagem, utilizando-se da tecno-logia.III. O Renascimento traz a ideia de individualidade e aperfeição pictórica na representação, buscando osvalores da arte clássica por meio de uma pintura maisreal.IV. O autorretrato medieval apresenta maturidade téc-nica, as bordas da ﬁgura são nítidas, apresentandovalores como o realismo na perspectiva, no volumee nas formas.Assinale a alternativa correta.a) Somente as aﬁrmativas I e II são corretas.b) Somente as aﬁrmativas I e IV são corretas.c) Somente as aﬁrmativas III e IV são corretas.d) Somente as aﬁrmativas I, II e III são corretas.e) Somente as aﬁrmativas II, III e IV são corretas."
+            "Analise as imagens a seguir.imagens/imagem_27.pngimagens/imagem_28.pngMãogravadanaCavernadeChauvet.Padre Ruﬁllus de Weissenau, Au-torretrato iluminando a letra “R”.imagens/imagem_29.pngimagens/imagem_30.pngSofonisbaAnguissola,Autorre-trato segurando um medalhão.Vincent van Gogh, Autorretrato nocavalete.imagens/imagem_31.pngimagens/imagem_32.pngRené Magritte, Meditações de umViajante Solitário.Scott Hutchison, Displaced.A Arte é também um meio de registro e manifestação hu-mana e, ao longo do tempo, apresenta a temática do au-torretrato, desenvolvida em vários movimentos e perío-dos da história da Arte.Com base na temática autorretrato, nas imagens e na his-tória da Arte, considere as aﬁrmativas a seguir.I. Na Arte Moderna, os autorretratos mostram mais ex-pressão, cor e movimento, rompendo com a ﬁgura-ção linear.II. O autorretrato contemporâneo gera uma interpreta-ção inovadora, estranhamento e despersoniﬁcação,uma releitura da sua imagem, utilizando-se da tecno-logia.III. O Renascimento traz a ideia de individualidade e aperfeição pictórica na representação, buscando osvalores da arte clássica por meio de uma pintura maisreal.IV. O autorretrato medieval apresenta maturidade téc-nica, as bordas da ﬁgura são nítidas, apresentandovalores como o realismo na perspectiva, no volumee nas formas.Assinale a alternativa correta."
         ],
-        "alternativas": {},
+        "alternativas": {
+            "a": "a) Somente as aﬁrmativas I e II são corretas.",
+            "b": "b) Somente as aﬁrmativas I e IV são corretas.",
+            "c": "c) Somente as aﬁrmativas III e IV são corretas.",
+            "d": "d) Somente as aﬁrmativas I, II e III são corretas.",
+            "e": "e) Somente as aﬁrmativas II, III e IV são corretas."
+        },
         "correcao": "Alternativa correta: d"
     },
     {
@@ -400,9 +436,15 @@
     {
         "indice": "32",
         "contexto": [
-            "Leia o texto a seguir.Com a expressão vita activa pretendo designar trêsatividades humanas fundamentais: trabalho, obra eação. São fundamentais porque a cada uma de-las corresponde uma das condições básicas sob asquais a vida foi dada ao homem na Terra.ARENDT, Hannah. A condição humana. Rio de Janeiro: Fo-rense Universitária, 2020, p 9.Com base no texto e nos conhecimentos sobre o trabalhoem Hannah Arendt, considere as aﬁrmativas a seguir.I. O trabalho é a condição humana ligada à própria vida,na medida em que fornece as condições para a so-brevivência, satisfazendo as necessidades relativasao processo biológico do corpo humano.II. A automação do trabalho é uma importante conquistada humanidade, pois ampliou o tempo para que sepudesse participar da vida política.III. A condição humana fundamental é o trabalho, por-que permite o aumento continuado da riqueza, pormeio da produção e do consumo de bens e merca-dorias.IV. O trabalho acontece no espaço privado do lar e éuma atividade que resulta em produtos que não têmdurabilidade, tais como coisas para serem consumi-das ou atividades de cuidado.Assinale a alternativa correta.a) Somente as aﬁrmativas I e II são corretas.b) Somente as aﬁrmativas I e IV são corretas.c) Somente as aﬁrmativas III e IV são corretas.d) Somente as aﬁrmativas I, II e III são corretas.e) Somente as aﬁrmativas II, III e IV são corretas."
+            "Leia o texto a seguir.Com a expressão vita activa pretendo designar trêsatividades humanas fundamentais: trabalho, obra eação. São fundamentais porque a cada uma de-las corresponde uma das condições básicas sob asquais a vida foi dada ao homem na Terra.ARENDT, Hannah. A condição humana. Rio de Janeiro: Fo-rense Universitária, 2020, p 9.Com base no texto e nos conhecimentos sobre o trabalhoem Hannah Arendt, considere as aﬁrmativas a seguir.I. O trabalho é a condição humana ligada à própria vida,na medida em que fornece as condições para a so-brevivência, satisfazendo as necessidades relativasao processo biológico do corpo humano.II. A automação do trabalho é uma importante conquistada humanidade, pois ampliou o tempo para que sepudesse participar da vida política.III. A condição humana fundamental é o trabalho, por-que permite o aumento continuado da riqueza, pormeio da produção e do consumo de bens e merca-dorias.IV. O trabalho acontece no espaço privado do lar e éuma atividade que resulta em produtos que não têmdurabilidade, tais como coisas para serem consumi-das ou atividades de cuidado.Assinale a alternativa correta."
         ],
-        "alternativas": {},
+        "alternativas": {
+            "a": "a) Somente as aﬁrmativas I e II são corretas.",
+            "b": "b) Somente as aﬁrmativas I e IV são corretas.",
+            "c": "c) Somente as aﬁrmativas III e IV são corretas.",
+            "d": "d) Somente as aﬁrmativas I, II e III são corretas.",
+            "e": "e) Somente as aﬁrmativas II, III e IV são corretas."
+        },
         "correcao": "Alternativa correta: b"
     },
     {
@@ -436,9 +478,15 @@
     {
         "indice": "35",
         "contexto": [
-            "Leia o texto a seguir.Os níveis globais de democracia caíram em 2022para patamares mais baixos do que em 1986 e onúmero de Estados comandados por ditaduras setornou maior do que o de democracias plenas pelaprimeira vez desde 1995, segundo relatório anualsobre democracia feito pelo instituto sueco V-Dem,ligado à Universidade de Gotemburgo. A pesquisaé considerada uma referência na medição dos ní-veis de regimes políticos em nível mundial e os di-vide em quatro vertentes: democracias liberais, de-mocracias eleitorais, autocracias eleitorais e ditadu-ras.Para classiﬁcar mais de 180 países nessescritérios, o instituto avalia itens como liberdade deimprensa, independência entre os poderes, repres-são policial e integridade do sistema eleitoral, entreoutros. Segundo o relatório, o número de democra-cias plenas no mundo caiu de 44 em 2009 para 32em 2022. Já o número de ditaduras, que em 2012estava em 22, seu número mais baixo, subiu para33. As ditaduras incluem países como Nicarágua,China e Coreia do Norte.Adaptado de: www.dgabc.com.brCom base nos conhecimentos sobre Democracia e regi-mes não democráticos, considere as aﬁrmativas a seguir.I. A democracia eleitoral amplia e aprofunda os princí-pios da democracia liberal, tornando-se um referen-cial político para a superação da crise no sistema re-presentativo.II. A democracia deliberativa apresenta característicasque permitem a ela ser implementada em larga es-cala, constituindo uma alternativa viável à democra-cia representativa.III. Autocracias eleitorais apresentam mecanismos de le-gitimação política deﬁnidos por regras democráticasde sucessão do poder.IV. Ditaduras como a China impactam no equilíbrio dabalança global de poder, criando dependência econô-mica e afetando os índices globais de liberdade e di-reitos humanos.Assinale a alternativa correta.a) Somente as aﬁrmativas I e II são corretas.b) Somente as aﬁrmativas I e IV são corretas.c) Somente as aﬁrmativas III e IV são corretas.d) Somente as aﬁrmativas I, II e III são corretas.e) Somente as aﬁrmativas II, III e IV são corretas."
+            "Leia o texto a seguir.Os níveis globais de democracia caíram em 2022para patamares mais baixos do que em 1986 e onúmero de Estados comandados por ditaduras setornou maior do que o de democracias plenas pelaprimeira vez desde 1995, segundo relatório anualsobre democracia feito pelo instituto sueco V-Dem,ligado à Universidade de Gotemburgo. A pesquisaé considerada uma referência na medição dos ní-veis de regimes políticos em nível mundial e os di-vide em quatro vertentes: democracias liberais, de-mocracias eleitorais, autocracias eleitorais e ditadu-ras.Para classiﬁcar mais de 180 países nessescritérios, o instituto avalia itens como liberdade deimprensa, independência entre os poderes, repres-são policial e integridade do sistema eleitoral, entreoutros. Segundo o relatório, o número de democra-cias plenas no mundo caiu de 44 em 2009 para 32em 2022. Já o número de ditaduras, que em 2012estava em 22, seu número mais baixo, subiu para33. As ditaduras incluem países como Nicarágua,China e Coreia do Norte.Adaptado de: www.dgabc.com.brCom base nos conhecimentos sobre Democracia e regi-mes não democráticos, considere as aﬁrmativas a seguir.I. A democracia eleitoral amplia e aprofunda os princí-pios da democracia liberal, tornando-se um referen-cial político para a superação da crise no sistema re-presentativo.II. A democracia deliberativa apresenta característicasque permitem a ela ser implementada em larga es-cala, constituindo uma alternativa viável à democra-cia representativa.III. Autocracias eleitorais apresentam mecanismos de le-gitimação política deﬁnidos por regras democráticasde sucessão do poder.IV. Ditaduras como a China impactam no equilíbrio dabalança global de poder, criando dependência econô-mica e afetando os índices globais de liberdade e di-reitos humanos.Assinale a alternativa correta."
         ],
-        "alternativas": {},
+        "alternativas": {
+            "a": "a) Somente as aﬁrmativas I e II são corretas.",
+            "b": "b) Somente as aﬁrmativas I e IV são corretas.",
+            "c": "c) Somente as aﬁrmativas III e IV são corretas.",
+            "d": "d) Somente as aﬁrmativas I, II e III são corretas.",
+            "e": "e) Somente as aﬁrmativas II, III e IV são corretas."
+        },
         "correcao": "Alternativa correta: c"
     },
     {
@@ -472,9 +520,15 @@
     {
         "indice": "38",
         "contexto": [
-            "Na República, o ﬁlósofo grego Platão nos apresenta “Omito da caverna”, narrativa sobre prisioneiros acorrenta-dos no interior de uma caverna, olhando para as paredese vendo apenas as sombras projetadas. Um dos prisionei-ros, ao conseguir livrar-se dos grilhões, sair da caverna ever o mundo lá fora, teve a visão ofuscada pela luz so-lar. A visão humana mencionada na metáfora de Platãoé dada pelos cones e bastonetes, células fotorreceptoraslocalizadas na porção central da retina. Por outro lado, acor dos olhos na espécie humana é dada pela quantidadede melanina depositada na íris, resultado da interação devários genes. Sabe-se que a interação entre dois genescontribui com a cor dos olhos humanos: o gene GEY, comdois alelos conhecidos como GV – dominante, que condi-ciona a cor verde, e GA – recessivo, que condiciona a corazul, e o gene BEY, cujos alelos BM -– dominante, con-dicionam a cor marrom (castanho) e BA dominante, quecondiciona a cor azul. Entre estes dois genes, ocorre in-teração gênica epistática dominante do alelo BM do geneBEY sobre os alelos do gene GEY.Em relação aos genes envolvidos no padrão de coloraçãodos olhos, considere as aﬁrmativas a seguir.I. Um indivíduo que contenha o alelo BM tem olhoscastanhos, pois este alelo é dominante sobre o aleloBA e epistático sobre alelos GV e GA.II. Um indivíduo com o genótipo BABAGV GA tem olhosverdes.III. Os alelos GV e GA do gene GEY apresentam sequên-cias de DNA idênticas.IV. Os alelos BA e GA pertencem ao mesmo gene, ouseja, são homozigotos, consequentemente compar-tilham os mesmos nucleotídeos.Assinale a alternativa correta.a) Somente as aﬁrmativas I e II são corretas.b) Somente as aﬁrmativas I e IV são corretas.c) Somente as aﬁrmativas III e IV são corretas.d) Somente as aﬁrmativas I, II e III são corretas.e) Somente as aﬁrmativas II, III e IV são corretas."
+            "Na República, o ﬁlósofo grego Platão nos apresenta “Omito da caverna”, narrativa sobre prisioneiros acorrenta-dos no interior de uma caverna, olhando para as paredese vendo apenas as sombras projetadas. Um dos prisionei-ros, ao conseguir livrar-se dos grilhões, sair da caverna ever o mundo lá fora, teve a visão ofuscada pela luz so-lar. A visão humana mencionada na metáfora de Platãoé dada pelos cones e bastonetes, células fotorreceptoraslocalizadas na porção central da retina. Por outro lado, acor dos olhos na espécie humana é dada pela quantidadede melanina depositada na íris, resultado da interação devários genes. Sabe-se que a interação entre dois genescontribui com a cor dos olhos humanos: o gene GEY, comdois alelos conhecidos como GV – dominante, que condi-ciona a cor verde, e GA – recessivo, que condiciona a corazul, e o gene BEY, cujos alelos BM -– dominante, con-dicionam a cor marrom (castanho) e BA dominante, quecondiciona a cor azul. Entre estes dois genes, ocorre in-teração gênica epistática dominante do alelo BM do geneBEY sobre os alelos do gene GEY.Em relação aos genes envolvidos no padrão de coloraçãodos olhos, considere as aﬁrmativas a seguir.I. Um indivíduo que contenha o alelo BM tem olhoscastanhos, pois este alelo é dominante sobre o aleloBA e epistático sobre alelos GV e GA.II. Um indivíduo com o genótipo BABAGV GA tem olhosverdes.III. Os alelos GV e GA do gene GEY apresentam sequên-cias de DNA idênticas.IV. Os alelos BA e GA pertencem ao mesmo gene, ouseja, são homozigotos, consequentemente compar-tilham os mesmos nucleotídeos.Assinale a alternativa correta."
         ],
-        "alternativas": {},
+        "alternativas": {
+            "a": "a) Somente as aﬁrmativas I e II são corretas.",
+            "b": "b) Somente as aﬁrmativas I e IV são corretas.",
+            "c": "c) Somente as aﬁrmativas III e IV são corretas.",
+            "d": "d) Somente as aﬁrmativas I, II e III são corretas.",
+            "e": "e) Somente as aﬁrmativas II, III e IV são corretas."
+        },
         "correcao": "Alternativa correta: QUESTÃO ANULADA"
     },
     {
@@ -494,9 +548,15 @@
     {
         "indice": "40",
         "contexto": [
-            "Analise as imagens a seguir.imagens/imagem_37.pngDjanira da Motta e Silva, Moça na janela, 1962 óleosobre aglomerado, 60,2 x 80,4 cmimagens/imagem_38.pngDenilson Baniwa, Curumim, guardador de memó-rias, 2018 acrílica sobre tecido, 160 x 200 cmCom base nas imagens e nos conhecimentos sobre ArteModerna e Contemporânea brasileira, considere as aﬁr-mativas a seguir.I. Tendo em vista os gêneros pictóricos, as duas obraspodem ser consideradas naturezas-mortas.II. Djanira e Baniwa estruturam os planos pictóricos apartir dos mesmos princípios compositivos.III. A pintura de Djanira e de Baniwa guardam semelhan-ças formais, porém discutem questões distintas.IV. A prática pictórica atravessa toda a História da Arte,sendo um meio importante na atualidade.Assinale a alternativa correta.a) Somente as aﬁrmativas I e II são corretas.b) Somente as aﬁrmativas I e IV são corretas.c) Somente as aﬁrmativas III e IV são corretas.d) Somente as aﬁrmativas I, II e III são corretas.e) Somente as aﬁrmativas II, III e IV são corretas."
+            "Analise as imagens a seguir.imagens/imagem_37.pngDjanira da Motta e Silva, Moça na janela, 1962 óleosobre aglomerado, 60,2 x 80,4 cmimagens/imagem_38.pngDenilson Baniwa, Curumim, guardador de memó-rias, 2018 acrílica sobre tecido, 160 x 200 cmCom base nas imagens e nos conhecimentos sobre ArteModerna e Contemporânea brasileira, considere as aﬁr-mativas a seguir.I. Tendo em vista os gêneros pictóricos, as duas obraspodem ser consideradas naturezas-mortas.II. Djanira e Baniwa estruturam os planos pictóricos apartir dos mesmos princípios compositivos.III. A pintura de Djanira e de Baniwa guardam semelhan-ças formais, porém discutem questões distintas.IV. A prática pictórica atravessa toda a História da Arte,sendo um meio importante na atualidade.Assinale a alternativa correta."
         ],
-        "alternativas": {},
+        "alternativas": {
+            "a": "a) Somente as aﬁrmativas I e II são corretas.",
+            "b": "b) Somente as aﬁrmativas I e IV são corretas.",
+            "c": "c) Somente as aﬁrmativas III e IV são corretas.",
+            "d": "d) Somente as aﬁrmativas I, II e III são corretas.",
+            "e": "e) Somente as aﬁrmativas II, III e IV são corretas."
+        },
         "correcao": "Alternativa correta: c"
     },
     {
@@ -516,17 +576,29 @@
     {
         "indice": "42",
         "contexto": [
-            "Um dos conceitos de Beleza apresenta o belo como ima-gem e semelhança da forma como nos vemos e nos repre-sentamos, envolvendo harmonia, proporção e formas per-feitas com ideais de Beleza, elementos valorizados nostratamentos estéticos como a criolipólise. A criolipólise éum procedimento estético que consiste no congelamentocontrolado do tecido adiposo desencadeando a morte dascélulas por apoptose. Como as células adiposas daniﬁca-das não são mais reconhecidas pelo organismo, há umprocesso inﬂamatório local que pode causar, lentamente,a sua eliminação. A temperatura utilizada é um parâmetroimportante para o tratamento e depende das proprieda-des ﬁsico-químicas da gordura, como o ponto de fusãoconforme tabela a seguir.Ácidos GraxosPonto de fusão ◦CÁcido butírico-8,0Ácido caprílico16,5Ácido caproico-3,0Ácido láurico44,0Ácido araquidônico-49,0Supondo que a gordura seja constituída majoritariamentepor ácidos graxos e que a temperatura de -10◦C foi utili-zada no procedimento de criolipólise, considere, nas aﬁr-mativas a seguir, os ácidos graxos que podem compor agordura e que serão solidiﬁcados pela ação da tempera-tura.I. Ácido caprílico, ácido butírico, ácido araquidônico.II. Ácido araquidônico, ácido caproico, ácido butírico.III. Ácido láurico, ácido caprílico, ácido caproico.IV. Ácido butírico, ácido caprílico, ácido láurico.Assinale a alternativa correta.a) Somente as aﬁrmativas I e II são corretas.b) Somente as aﬁrmativas I e IV são corretas.c) Somente as aﬁrmativas III e IV são corretas.d) Somente as aﬁrmativas I, II e III são corretas.e) Somente as aﬁrmativas II, III e IV são corretas."
+            "Um dos conceitos de Beleza apresenta o belo como ima-gem e semelhança da forma como nos vemos e nos repre-sentamos, envolvendo harmonia, proporção e formas per-feitas com ideais de Beleza, elementos valorizados nostratamentos estéticos como a criolipólise. A criolipólise éum procedimento estético que consiste no congelamentocontrolado do tecido adiposo desencadeando a morte dascélulas por apoptose. Como as células adiposas daniﬁca-das não são mais reconhecidas pelo organismo, há umprocesso inﬂamatório local que pode causar, lentamente,a sua eliminação. A temperatura utilizada é um parâmetroimportante para o tratamento e depende das proprieda-des ﬁsico-químicas da gordura, como o ponto de fusãoconforme tabela a seguir.Ácidos GraxosPonto de fusão ◦CÁcido butírico-8,0Ácido caprílico16,5Ácido caproico-3,0Ácido láurico44,0Ácido araquidônico-49,0Supondo que a gordura seja constituída majoritariamentepor ácidos graxos e que a temperatura de -10◦C foi utili-zada no procedimento de criolipólise, considere, nas aﬁr-mativas a seguir, os ácidos graxos que podem compor agordura e que serão solidiﬁcados pela ação da tempera-tura.I. Ácido caprílico, ácido butírico, ácido araquidônico.II. Ácido araquidônico, ácido caproico, ácido butírico.III. Ácido láurico, ácido caprílico, ácido caproico.IV. Ácido butírico, ácido caprílico, ácido láurico.Assinale a alternativa correta."
         ],
-        "alternativas": {},
+        "alternativas": {
+            "a": "a) Somente as aﬁrmativas I e II são corretas.",
+            "b": "b) Somente as aﬁrmativas I e IV são corretas.",
+            "c": "c) Somente as aﬁrmativas III e IV são corretas.",
+            "d": "d) Somente as aﬁrmativas I, II e III são corretas.",
+            "e": "e) Somente as aﬁrmativas II, III e IV são corretas."
+        },
         "correcao": "Alternativa correta: c"
     },
     {
         "indice": "43",
         "contexto": [
-            "A indústria de alimentos tem procurado substituir, em bis-coitos recheados, gorduras hidrogenadas e ricas em áci-dos graxos trans, consideradas maléﬁcas à saúde, porgorduras mais saudáveis, como as interesteriﬁcadas. Esseprocedimento, no entanto, pode alterar a textura, aparên-cia e palatabilidade do alimento. Para contornar esse pro-blema e, ao mesmo tempo, manter o valor nutricional,pesquisas apontam que é possível misturar emulsiﬁcan-tes como o triestearato de sorbitana e o estearato de sa-carose à gordura interesteriﬁcada.Com base nos conhecimentos sobre reações químicas,coloides e suas propriedades, considere as aﬁrmativas aseguir.I. Gorduras hidrogenadas podem ser obtidas a partirda reação de adição entre ácidos graxos poli-insatu-rados e H2 na presença de catalisador.II. Emulsão é considerada uma dispersão coloidal for-mada por uma mistura heterogênea.III. A reação entre um triglicerídeo e uma base forte, co-mo o NaOH, é conhecida como reação de esteriﬁca-ção.IV. Ao adicionar os emulsiﬁcantes à gordura interesteri-ﬁcada, haverá formação de uma solução homogêneaformada pelos sólidos triestearato de sorbitana e oestearato de sacarose dissolvidos na gordura.Assinale a alternativa correta.a) Somente as aﬁrmativas I e II são corretas.b) Somente as aﬁrmativas I e IV são corretas.c) Somente as aﬁrmativas III e IV são corretas.d) Somente as aﬁrmativas I, II e III são corretas.e) Somente as aﬁrmativas II, III e IV são corretas."
+            "A indústria de alimentos tem procurado substituir, em bis-coitos recheados, gorduras hidrogenadas e ricas em áci-dos graxos trans, consideradas maléﬁcas à saúde, porgorduras mais saudáveis, como as interesteriﬁcadas. Esseprocedimento, no entanto, pode alterar a textura, aparên-cia e palatabilidade do alimento. Para contornar esse pro-blema e, ao mesmo tempo, manter o valor nutricional,pesquisas apontam que é possível misturar emulsiﬁcan-tes como o triestearato de sorbitana e o estearato de sa-carose à gordura interesteriﬁcada.Com base nos conhecimentos sobre reações químicas,coloides e suas propriedades, considere as aﬁrmativas aseguir.I. Gorduras hidrogenadas podem ser obtidas a partirda reação de adição entre ácidos graxos poli-insatu-rados e H2 na presença de catalisador.II. Emulsão é considerada uma dispersão coloidal for-mada por uma mistura heterogênea.III. A reação entre um triglicerídeo e uma base forte, co-mo o NaOH, é conhecida como reação de esteriﬁca-ção.IV. Ao adicionar os emulsiﬁcantes à gordura interesteri-ﬁcada, haverá formação de uma solução homogêneaformada pelos sólidos triestearato de sorbitana e oestearato de sacarose dissolvidos na gordura.Assinale a alternativa correta."
         ],
-        "alternativas": {},
+        "alternativas": {
+            "a": "a) Somente as aﬁrmativas I e II são corretas.",
+            "b": "b) Somente as aﬁrmativas I e IV são corretas.",
+            "c": "c) Somente as aﬁrmativas III e IV são corretas.",
+            "d": "d) Somente as aﬁrmativas I, II e III são corretas.",
+            "e": "e) Somente as aﬁrmativas II, III e IV são corretas."
+        },
         "correcao": "Alternativa correta: a"
     },
     {
@@ -588,9 +660,15 @@
     {
         "indice": "48",
         "contexto": [
-            "Leia o texto a seguir.Desde 2008, o Brasil ocupa o lugar de maior con-sumidor de agrotóxicos do mundo. O uso do agro-tóxico reduz a população de determinados seres vi-vos nocivos à agricultura. A síntese química foi de-senvolvida na primeira metade do século XX, maisamplamente no período das duas guerras mundi-ais com o objetivo de produzir armas químicas. ODicloro-Difenil-Tricloroetano (DDT), sintetizado em1939, intensiﬁcou esta cadeia produtiva. Os órgãosreguladores da saúde pública ajudaram a legitimara introdução desses produtos tóxicos sob a alega-ção de combater seres vivos nocivos à agricultura.Adaptado de: BOMBARDI, L. M., Geograﬁa do Uso de Agrotó-xicos no Brasil e Conexões com a União Europeia. São Paulo:FFLCH - USP, 2017.Com base nos conhecimentos sobre produção agrícolano Brasil e o uso de defensivos agrícolas, considere asaﬁrmativas a seguir.I. Designar os agrotóxicos como defensivos agrícolasé um artifício retórico para dissimular a natureza no-civa desses produtos e sugere que os agrotóxicossupostamente protegem os cultivos sem efeitos no-civos sobre a saúde humana e o meio ambiente.II. Há a falsa ideia de que algumas medidas preventivaseliminariam os riscos de intoxicação humana e am-biental, cuja responsabilidade é transferida para asvítimas, sob a alegação de que estas não adotam osprocedimentos de segurança recomendados.III. A aplicação de inseticidas pode levar, nas popula-ções de insetos-praga, ao surgimento de organismosresistentes, que, com o passar do tempo, se tornama maioria dos indivíduos da população.IV. Os agrotóxicos inseticidas são inertes para outrosinsetos, como polinizadores e predadores naturais,contribuindo com o equilíbrio ecológico nas planta-ções e em seu entorno.Assinale a alternativa correta.a) Somente as aﬁrmativas I e II são corretas.b) Somente as aﬁrmativas I e IV são corretas.c) Somente as aﬁrmativas III e IV são corretas.d) Somente as aﬁrmativas I, II e III são corretas.e) Somente as aﬁrmativas II, III e IV são corretas."
+            "Leia o texto a seguir.Desde 2008, o Brasil ocupa o lugar de maior con-sumidor de agrotóxicos do mundo. O uso do agro-tóxico reduz a população de determinados seres vi-vos nocivos à agricultura. A síntese química foi de-senvolvida na primeira metade do século XX, maisamplamente no período das duas guerras mundi-ais com o objetivo de produzir armas químicas. ODicloro-Difenil-Tricloroetano (DDT), sintetizado em1939, intensiﬁcou esta cadeia produtiva. Os órgãosreguladores da saúde pública ajudaram a legitimara introdução desses produtos tóxicos sob a alega-ção de combater seres vivos nocivos à agricultura.Adaptado de: BOMBARDI, L. M., Geograﬁa do Uso de Agrotó-xicos no Brasil e Conexões com a União Europeia. São Paulo:FFLCH - USP, 2017.Com base nos conhecimentos sobre produção agrícolano Brasil e o uso de defensivos agrícolas, considere asaﬁrmativas a seguir.I. Designar os agrotóxicos como defensivos agrícolasé um artifício retórico para dissimular a natureza no-civa desses produtos e sugere que os agrotóxicossupostamente protegem os cultivos sem efeitos no-civos sobre a saúde humana e o meio ambiente.II. Há a falsa ideia de que algumas medidas preventivaseliminariam os riscos de intoxicação humana e am-biental, cuja responsabilidade é transferida para asvítimas, sob a alegação de que estas não adotam osprocedimentos de segurança recomendados.III. A aplicação de inseticidas pode levar, nas popula-ções de insetos-praga, ao surgimento de organismosresistentes, que, com o passar do tempo, se tornama maioria dos indivíduos da população.IV. Os agrotóxicos inseticidas são inertes para outrosinsetos, como polinizadores e predadores naturais,contribuindo com o equilíbrio ecológico nas planta-ções e em seu entorno.Assinale a alternativa correta."
         ],
-        "alternativas": {},
+        "alternativas": {
+            "a": "a) Somente as aﬁrmativas I e II são corretas.",
+            "b": "b) Somente as aﬁrmativas I e IV são corretas.",
+            "c": "c) Somente as aﬁrmativas III e IV são corretas.",
+            "d": "d) Somente as aﬁrmativas I, II e III são corretas.",
+            "e": "e) Somente as aﬁrmativas II, III e IV são corretas."
+        },
         "correcao": "Alternativa correta: a"
     },
     {
